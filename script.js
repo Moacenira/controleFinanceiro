@@ -17,7 +17,7 @@ const Storage ={
 const Transaction ={
   all: Storage.get(),
 
-  add(transation){
+  add(transaction){
     Transaction.all.push(transaction)
     App.reload()
   },
